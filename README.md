@@ -25,7 +25,7 @@ Você pode alterar a qualidade modificando 'preferredquality':
 '320' - Qualidade máxima
 
 Podemos baixar ou testar:
-yt-dlp -f best https://www.youtube.com/live/OZPOcRuK3m4
+yt-dlp -f best <URL>
 
 E para cortes:
 ffmpeg -i "video.mp4" -ss 01:35:56 -to 01:36:33 -c copy "trecho.mp4"
