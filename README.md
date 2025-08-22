@@ -12,10 +12,10 @@ python3 baixar_yt_mp3.py
 
 Insira a URL do youtube para baixar.
 
-Sair do ambiente virtual do python
+Para sair do ambiente virtual do python:
+deactivate
 
-
-Obs:
+(!) Obs:
 
 Opções de qualidade de áudio:
 Você pode alterar a qualidade modificando 'preferredquality':
@@ -23,4 +23,10 @@ Você pode alterar a qualidade modificando 'preferredquality':
 '192' - Qualidade boa (recomendado)
 '256' - Qualidade alta
 '320' - Qualidade máxima
+
+Podemos baixar ou testar:
+yt-dlp -f best https://www.youtube.com/live/OZPOcRuK3m4
+
+E para cortes:
+ffmpeg -i "video.mp4" -ss 01:35:56 -to 01:36:33 -c copy "trecho.mp4"
 
