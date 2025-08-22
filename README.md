@@ -19,6 +19,7 @@ deactivate
 
 Opções de qualidade de áudio:
 Você pode alterar a qualidade modificando 'preferredquality':
+
 '128' - Qualidade padrão
 '192' - Qualidade boa (recomendado)
 '256' - Qualidade alta
